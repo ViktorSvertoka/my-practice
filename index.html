@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="gallery">
+      <h2 class="title">Gallery</h2>
+      <div class="gallery-list">
+        <a href="img/img1.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img1.webp" alt="alt" />
+        </a>
+        <a href="img/img2.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img2.webp" alt="alt" />
+        </a>
+        <a href="img/img3.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img3.webp" alt="alt" />
+        </a>
+        <a href="img/img4.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img4.webp" alt="alt" />
+        </a>
+        <a href="img/img5.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img5.webp" alt="alt" />
+        </a>
+        <a href="img/img6.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img6.webp" alt="alt" />
+        </a>
+        <a href="img/img7.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img7.webp" alt="alt" />
+        </a>
+        <a href="img/img8.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img8.webp" alt="alt" />
+        </a>
+        <a href="img/img9.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img9.webp" alt="alt" />
+        </a>
+        <a href="img/img10.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img10.webp" alt="alt" />
+        </a>
+        <a href="img/img11.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img11.webp" alt="alt" />
+        </a>
+        <a href="img/img12.webp" class="gallery-item">
+          <div class="gallery-item-hover">Посмотреть</div>
+          <img src="img/img12.webp" alt="alt" />
+        </a>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script>
+      $(".gallery-list").magnificPopup({
+        delegate: "a",
+        type: "image",
+        gallery: {
+          enabled: true,
+        },
+      });
+    </script>
+  </body>
+</html>
