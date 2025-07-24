@@ -14,7 +14,7 @@ section.gallery {
   padding: 45px 0;
 }
 
-h1.title {
+h2.title {
   font-size: 44px;
   font-weight: bold;
   text-align: center;
@@ -22,7 +22,7 @@ h1.title {
   position: relative;
 }
 
-h1.title:after {
+h2.title:after {
   content: '';
   position: absolute;
   width: 100px;
